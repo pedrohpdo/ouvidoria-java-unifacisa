@@ -1,15 +1,14 @@
 package br.com.unifacisa.ouvidoria.services;
 
 import java.util.NoSuchElementException;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.InvalidDataAccessApiUsageException;
 import org.springframework.stereotype.Service;
 
 import br.com.unifacisa.ouvidoria.entities.Feedback;
+import br.com.unifacisa.ouvidoria.entities.Person;
 import br.com.unifacisa.ouvidoria.entities.User;
-import br.com.unifacisa.ouvidoria.enums.FeedbackType;
 import br.com.unifacisa.ouvidoria.repositories.UserRepository;
 
 /**

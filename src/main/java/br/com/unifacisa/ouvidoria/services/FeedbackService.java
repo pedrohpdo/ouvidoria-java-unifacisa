@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import br.com.unifacisa.ouvidoria.entities.Feedback;
 import br.com.unifacisa.ouvidoria.entities.User;
-import br.com.unifacisa.ouvidoria.enums.FeedbackType;
 import br.com.unifacisa.ouvidoria.repositories.FeedbackRepository;
 
 @Service

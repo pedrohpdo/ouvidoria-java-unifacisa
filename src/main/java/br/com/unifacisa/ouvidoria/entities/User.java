@@ -3,6 +3,7 @@ import java.util.List;
 
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
+
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -15,7 +16,6 @@ import jakarta.persistence.OneToMany;
  */
 
 @Entity
-@DiscriminatorValue(value = "USR")
 public class User extends Person {
     
     @OneToMany(mappedBy = "owner", fetch = FetchType.EAGER)
