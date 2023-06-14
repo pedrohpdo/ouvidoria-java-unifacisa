@@ -1,8 +1,8 @@
-#Salve!
+# Salve!
 
 Desenvolvimento de uma aplicação CRUD com uma implementação de um sistema de ouvidoria, utilizando categorias distintas (Reclamações, Elogios e Sugestões), adicionando, alterando ou deletando novas informações através de um Banco de Dados MySQL em uma conexão local.
 
-#Start
+# Start
 Para também usar essa aplicação, basta clonar o repositório usando o comando
 ```
 git clone
